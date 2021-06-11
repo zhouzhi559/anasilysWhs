@@ -93,8 +93,8 @@ DATABASES = {
         'NAME': 'imotionwhs',
         'USER': 'imds',
         'PASSWORD': 'imotionflow',
-        'HOST': '10.0.0.103',
-        'PORT': '3306',
+        'HOST': 'vpn.tyrantcwj.cn',
+        'PORT': 65509,
     }
 }
 

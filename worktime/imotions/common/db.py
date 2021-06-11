@@ -1,8 +1,9 @@
 import pymysql
 
-host = "10.0.0.103"
+host = "vpn.tyrantcwj.cn"
 user = 'imds'
 password = 'imotionflow'
+port = 65509
 
 
 # ---------------数据库、表单创建------------------#
@@ -11,7 +12,8 @@ class DB:
     def create_database(self, dBName):
         conn = pymysql.connect(host=host,
                                user=user,
-                               password=password)
+                               password=password,
+                               port = port)
         cursor = conn.cursor()
         try:
             cursor.execute('create database  %s' % dBName)
@@ -24,7 +26,7 @@ class DB:
     # ------------------数据库操作---------------------#
     # 连接数据库
     def get_connection(self, dbName):
-        conn = pymysql.connect(host=host, user=user, password=password, db=dbName, )
+        conn = pymysql.connect(host=host, user=user, password=password, port=port, db=dbName, )
         return conn
 
     # 执行SQL
