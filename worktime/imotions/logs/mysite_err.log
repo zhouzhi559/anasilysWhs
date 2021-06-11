@@ -1,0 +1,2064 @@
+[2021-06-08 12:51:30,070][Thread-1:2420][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSum]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 277, in get
+    data = self.get_company_worktime()
+TypeError: get_company_worktime() missing 2 required positional arguments: 'start_time' and 'end_time'
+[2021-06-08 12:52:02,689][Thread-1:15676][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSum]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 277, in get
+    data = self.get_company_worktime()
+TypeError: get_company_worktime() missing 2 required positional arguments: 'start_time' and 'end_time'
+[2021-06-08 16:52:42,125][Thread-1:19752][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/whs]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1551, in get
+    df.get_company_worktimes()
+AttributeError: 'get_proiect_times' object has no attribute 'get_company_worktimes'
+[2021-06-08 17:12:43,063][Thread-3:19696][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSum]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+[2021-06-08 17:12:48,906][Thread-1:20196][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSum]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+[2021-06-08 17:12:53,170][Thread-1:20196][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSum]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+[2021-06-09 11:20:19,342][Thread-1:18108][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectName]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1711, in get
+    self.get_project()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1689, in get_project
+    if len(i[-1][2]) == 8:
+IndexError: string index out of range
+[2021-06-09 11:20:56,803][Thread-1:18108][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectName]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1711, in get
+    self.get_project()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1689, in get_project
+    if len(i[-1][2]) == 8:
+IndexError: string index out of range
+[2021-06-09 11:23:10,055][Thread-1:18508][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectName]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1708, in get
+    self.get_project()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1689, in get_project
+    print(len(i[-1], 'xxxxxxx', i[-1]))
+TypeError: len() takes exactly one argument (3 given)
+[2021-06-09 15:56:05,722][Thread-2:15904][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSum]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1922, in get
+    data = self.get_data(start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1910, in get_data
+    data = get_work.get_com_time(start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\get_company_worktime.py", line 92, in get_com_time
+    data[company_worktime_data] = company_worktime_data
+TypeError: unhashable type: 'dict'
+[2021-06-09 17:03:44,293][Thread-1:7148][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/hhh]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1958, in get
+    self.get_data()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1954, in get_data
+    df.get_one_project_all_com()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\get_one_project_all_company_worktime.py", line 78, in get_one_project_all_com
+    for i in imotion_keys:
+RuntimeError: dictionary changed size during iteration
+[2021-06-09 17:22:09,460][Thread-2:19912][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/oneProjectWorkHoursSum]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1807, in get
+    data = self.get_data(start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1800, in get_data
+    data = df.get_one_project_all_com(start_time, end_time)
+TypeError: get_one_project_all_com() takes 1 positional argument but 3 were given
+[2021-06-09 18:41:28,348][Thread-2:17512][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/oneProjectWorkHoursSumBar]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1844, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ndarray is not JSON serializable
+[2021-06-09 18:47:56,252][Thread-3:19228][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSum]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 33, in get
+    data = self.get_data()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 27, in get_data
+    data = df.get_one_company_all_project()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\get_one_company_all_project_show.py", line 35, in get_one_company_all_project
+    sql_main = sql.format(company, start_time, end_time)
+NameError: name 'start_time' is not defined
+[2021-06-09 18:48:04,126][Thread-2:20396][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSum]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 33, in get
+    data = self.get_data()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 27, in get_data
+    data = df.get_one_company_all_project()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\get_one_company_all_project_show.py", line 35, in get_one_company_all_project
+    sql_main = sql.format(company, start_time, end_time)
+NameError: name 'start_time' is not defined
+[2021-06-09 18:48:14,615][Thread-1:19736][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSum]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 33, in get
+    data = self.get_data()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 27, in get_data
+    data = df.get_one_company_all_project()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\get_one_company_all_project_show.py", line 35, in get_one_company_all_project
+    sql_main = sql.format(company, start_time, end_time)
+NameError: name 'start_time' is not defined
+[2021-06-09 19:00:19,939][Thread-4:20172][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/oneProjectWorkHoursSumBar]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1846, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int32 is not JSON serializable
+[2021-06-09 19:00:32,371][Thread-5:17952][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/oneProjectWorkHoursSumBar]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1846, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int32 is not JSON serializable
+[2021-06-10 08:51:31,591][Thread-2:17952][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSum]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 33, in get
+    data = self.get_data()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 27, in get_data
+    data = df.get_one_company_all_project()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\get_one_company_all_project_show.py", line 35, in get_one_company_all_project
+    sql_main = sql.format(company, start_time, end_time)
+NameError: name 'start_time' is not defined
+[2021-06-10 08:52:24,986][Thread-5:10852][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSum]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 33, in get
+    data = self.get_data()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 27, in get_data
+    data = df.get_one_company_all_project()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\get_one_company_all_project_show.py", line 35, in get_one_company_all_project
+    sql_main = sql.format(company, start_time, end_time)
+NameError: name 'start_time' is not defined
+[2021-06-10 08:53:25,675][Thread-4:13920][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSum]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 33, in get
+    data = self.get_data()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 27, in get_data
+    data = df.get_one_company_all_project()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\get_one_company_all_project_show.py", line 35, in get_one_company_all_project
+    sql_main = sql.format(company, start_time, end_time)
+NameError: name 'start_time' is not defined
+[2021-06-10 08:59:58,488][Thread-6:14040][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSum]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 33, in get
+    data = self.get_data()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 27, in get_data
+    data = df.get_one_company_all_project()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\get_one_company_all_project_show.py", line 35, in get_one_company_all_project
+    sql_main = sql.format(company, start_time, end_time)
+NameError: name 'start_time' is not defined
+[2021-06-10 08:59:58,535][Thread-4:14384][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/oneProjectWorkHoursSumBar]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1848, in get
+    data = json.dumps(data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int32 is not JSON serializable
+[2021-06-10 09:02:33,469][Thread-5:16072][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSum]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 33, in get
+    data = self.get_data()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 27, in get_data
+    data = df.get_one_company_all_project()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\get_one_company_all_project_show.py", line 35, in get_one_company_all_project
+    sql_main = sql.format(company, start_time, end_time)
+NameError: name 'start_time' is not defined
+[2021-06-10 09:02:50,776][Thread-1:18284][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSum]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 33, in get
+    data = self.get_data()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 27, in get_data
+    data = df.get_one_company_all_project()
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\get_one_company_all_project_show.py", line 35, in get_one_company_all_project
+    sql_main = sql.format(company, start_time, end_time)
+NameError: name 'start_time' is not defined
+[2021-06-10 10:04:23,842][Thread-1:12212][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/oneProjectWorkHoursSum]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1816, in get
+    data = self.get_data(start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1809, in get_data
+    data = df.get_one_project_all_com(start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\get_one_project_all_company_worktime.py", line 89, in get_one_project_all_com
+    cos_name.append([dr[0], dr[2]])
+NameError: name 'cos_name' is not defined
+[2021-06-10 13:04:15,787][Thread-1:12720][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 26, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0}.project_info as a left join \n{0}.m_main as b on a.project_id = b.m_m_project_' at line 2")
+[2021-06-10 13:04:50,929][Thread-1:12720][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 26, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0}.project_info as a left join \n{0}.m_main as b on a.project_id = b.m_m_project_' at line 2")
+[2021-06-10 13:05:47,662][Thread-1:17484][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 24, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0}.project_info as a left join \n{0}.m_main as b on a.project_id = b.m_m_project_' at line 1")
+[2021-06-10 13:06:35,384][Thread-1:18944][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 24, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0}.project_info as a left join \n{0}.m_main as b on a.project_id = b.m_m_project_' at line 1")
+[2021-06-10 13:07:00,093][Thread-2:12284][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 24, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0}.project_info as a left join \n{0}.m_main as b on a.project_id = b.m_m_project_' at line 1")
+[2021-06-10 13:08:11,867][Thread-1:17472][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0}.project_info as a left join imotion.m_main as b on a.project_id = b.m_m_proje' at line 1")
+[2021-06-10 13:08:49,591][Thread-1:14724][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''{0}'.project_info as a left join imotion.m_main as b on a.project_id = b.m_m_pr' at line 1")
+[2021-06-10 13:10:29,617][Thread-1:13160][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0}.project_info' at line 1")
+[2021-06-10 13:11:18,896][Thread-1:12944][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 27, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0}.project_info \n                as a left join {0}.m_main as b on a.project_id ' at line 1")
+[2021-06-10 13:14:48,569][Thread-8:16068][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 27, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0}.project_info \n                as a left join {0}.m_main as b on a.project_id ' at line 1")
+[2021-06-10 13:27:57,021][Thread-3:2140][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1879, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'None.project_info' doesn't exist")
+[2021-06-10 13:28:17,113][Thread-2:8888][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1879, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'None.project_info' doesn't exist")
+[2021-06-10 13:30:10,362][Thread-4:19920][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1879, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 13:30:12,633][Thread-5:13668][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1879, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'None.project_info' doesn't exist")
+[2021-06-10 13:40:48,908][Thread-2:19916][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'None.project_info' doesn't exist")
+[2021-06-10 13:41:37,483][Thread-3:19604][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 13:41:53,936][Thread-2:1588][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 13:42:32,064][Thread-3:19604][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 13:43:17,721][Thread-1:17992][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 13:43:21,284][Thread-2:1588][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 13:43:24,080][Thread-3:19604][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 13:43:50,248][Thread-1:17992][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 13:44:05,479][Thread-2:1588][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 13:46:36,537][Thread-3:19604][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 13:46:40,695][Thread-1:17992][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 13:48:42,639][Thread-2:1588][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 13:48:47,002][Thread-3:19604][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 22, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 13:54:53,769][Thread-2:10084][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 26, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 13:54:57,670][Thread-2:10084][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 26, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 13:56:41,368][Thread-3:19404][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 26, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 13:56:43,868][Thread-1:13172][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 26, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 14:00:01,551][Thread-1:13172][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 26, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 14:00:04,894][Thread-1:13172][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 26, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 14:00:38,724][Thread-2:10084][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 26, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 14:00:56,565][Thread-3:19404][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 26, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 14:03:28,362][Thread-2:10084][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 26, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 14:03:52,095][Thread-3:19404][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 26, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 14:03:55,391][Thread-1:13172][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1862, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 26, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1046, 'No database selected')
+[2021-06-10 14:14:31,892][Thread-1:20184][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProjectBar]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1912, in get
+    one_company_worktimes = self.get_all_time(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1892, in get_all_time
+    all_times_num = all_times.get_one_company_worktimes(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\one_company_worktimes.py", line 30, in get_one_company_worktimes
+    db.execute_sql(conn, sql)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0}.work_date where Description = '工作日' and Date>= '{1}' and Date <='{2}'' at line 1")
+[2021-06-10 14:16:57,320][Thread-1:6800][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProjectBar]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1912, in get
+    one_company_worktimes = self.get_all_time(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1892, in get_all_time
+    all_times_num = all_times.get_one_company_worktimes(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\one_company_worktimes.py", line 30, in get_one_company_worktimes
+    db.execute_sql(conn, sql)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0}.work_date where Description = '工作日' and Date>= '{1}' and Date <='{2}'' at line 1")
+[2021-06-10 15:34:35,878][Thread-1:19680][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSumCompany]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1939, in get
+    self.get_data(start_time, end_time, project)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1926, in get_data
+    get_one_project_company = get_data.get_one_project_companys(start_time, end_time, cost_center)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\one_project_anyone_company_worktimes.py", line 21, in get_one_project_companys
+    project_name = db.execute_sql(conn, sql_name_format)[0][0]
+IndexError: tuple index out of range
+[2021-06-10 15:34:49,113][Thread-1:19020][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSumCompany]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1939, in get
+    self.get_data(start_time, end_time, project)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1926, in get_data
+    get_one_project_company = get_data.get_one_project_companys(start_time, end_time, cost_center)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\one_project_anyone_company_worktimes.py", line 21, in get_one_project_companys
+    project_name = db.execute_sql(conn, sql_name_format)[0]
+IndexError: tuple index out of range
+[2021-06-10 15:38:26,779][Thread-1:12852][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSumCompany]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1939, in get
+    self.get_data(start_time, end_time, project)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1926, in get_data
+    get_one_project_company = get_data.get_one_project_companys(start_time, end_time, cost_center)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\one_project_anyone_company_worktimes.py", line 25, in get_one_project_companys
+    print(p_name)
+UnboundLocalError: local variable 'p_name' referenced before assignment
+[2021-06-10 15:59:15,354][Thread-1:10396][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSumCompany]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1939, in get
+    self.get_data(start_time, end_time, project)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1926, in get_data
+    get_one_project_company = get_data.get_one_project_companys(start_time, end_time, cost_center)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\one_project_anyone_company_worktimes.py", line 67, in get_one_project_companys
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like %'2824' group by cost_center' at line 7")
+[2021-06-10 15:59:45,215][Thread-1:4592][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSumCompany]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1939, in get
+    self.get_data(start_time, end_time, project)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1926, in get_data
+    get_one_project_company = get_data.get_one_project_companys(start_time, end_time, cost_center)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\one_project_anyone_company_worktimes.py", line 67, in get_one_project_companys
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like '%2824' group by cost_center' at line 7")
+[2021-06-10 16:36:10,200][Thread-1:19604][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSumCompany]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1941, in get
+    data = self.get_data(start_time, end_time, project)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1926, in get_data
+    get_one_project_company = get_data.get_one_project_companys(start_time, end_time, cost_center)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\one_project_anyone_company_worktimes.py", line 86, in get_one_project_companys
+    print(project_names[0][0][0])
+IndexError: list index out of range
+[2021-06-10 16:37:51,891][Thread-2:21104][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/projectWorkHoursSumCompany]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1941, in get
+    data = self.get_data(start_time, end_time, project)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1926, in get_data
+    get_one_project_company = get_data.get_one_project_companys(start_time, end_time, cost_center)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\one_project_anyone_company_worktimes.py", line 86, in get_one_project_companys
+    print(project_names[0][0][0])
+IndexError: list index out of range
+[2021-06-10 17:22:53,867][Thread-4:4536][task_id:django.request][log.py:230][ERROR][Internal Server Error: /wts/companyWorkHoursSumProject]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1892, in get
+    data = self.get_company_analysis_project_data(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\wts\views.py", line 1877, in get_company_analysis_project_data
+    data = company_project.get_company_analysis_project(company, start_time, end_time)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\company_analysis_project.py", line 26, in get_company_analysis_project
+    drs = db.execute_sql(conn, sql_main)
+  File "D:\zhouzhi\git_code\whs\worktime\imotions\common\db.py", line 35, in execute_sql
+    cursor.execute(sql)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\zhi.zhou\Anaconda3\envs\worktime\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'None.project_info' doesn't exist")
+[2021-06-11 09:20:22,205][Thread-1:12400][task_id:django.request][log.py:224][ERROR][Internal Server Error: /wts/projectWorkHoursSumCompanyBar]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\worktimes\worktime\imotions\wts\views.py", line 1041, in get
+    self.get_data(self, start_time, end_time, project)
+TypeError: get_data() takes 4 positional arguments but 5 were given
+[2021-06-11 09:25:48,344][Thread-1:11468][task_id:django.request][log.py:224][ERROR][Internal Server Error: /wts/projectWorkHoursSumCompanyBar]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\worktimes\worktime\imotions\wts\views.py", line 1051, in get
+    data1 = self.get_data(start_time, end_time, project)
+  File "D:\zhouzhi\worktimes\worktime\imotions\wts\views.py", line 1032, in get_data
+    print(sum(one_project_wts))
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+[2021-06-11 09:26:19,305][Thread-1:11328][task_id:django.request][log.py:224][ERROR][Internal Server Error: /wts/projectWorkHoursSumCompanyBar]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\worktimes\worktime\imotions\wts\views.py", line 1051, in get
+    data1 = self.get_data(start_time, end_time, project)
+  File "D:\zhouzhi\worktimes\worktime\imotions\wts\views.py", line 1028, in get_data
+    one_project_wts.append(float(value_wts))
+ValueError: could not convert string to float: '无界工场(上海)软件科技有限公司'
+[2021-06-11 09:40:53,083][Thread-7:17964][task_id:django.request][log.py:224][ERROR][Internal Server Error: /wts/projectWorkHoursSumCompany]
+Traceback (most recent call last):
+  File "C:\Users\zhi.zhou\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\zhi.zhou\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\zhi.zhou\Anaconda3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\zhouzhi\worktimes\worktime\imotions\wts\views.py", line 1008, in get
+    data = self.get_data(start_time, end_time, project)
+  File "D:\zhouzhi\worktimes\worktime\imotions\wts\views.py", line 993, in get_data
+    get_one_project_company = get_data.get_one_project_companys(start_time, end_time, cost_center)
+  File "D:\zhouzhi\worktimes\worktime\imotions\common\one_project_anyone_company_worktimes.py", line 31, in get_one_project_companys
+    if len(project) != 8:
+TypeError: object of type 'NoneType' has no len()
